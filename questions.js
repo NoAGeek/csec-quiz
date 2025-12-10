@@ -31,7 +31,7 @@ const quizQuestions = [
             "Virtualization",
             "Digital signature"
         ],
-        correct: [0, 1, 2, 4] // Routing control, Data confidentiality, Data integrity, Digital signature (NOT Virtualization)
+        correct: [0, 2, 4] // Routing control, Data integrity, Digital signature (NOT Virtualization, NOT Data confidentiality)
     },
     {
         question: "4. What are persistence attack vectors?",
@@ -141,7 +141,7 @@ const quizQuestions = [
             "Define security policy",
             "Reverse changes and manipulations"
         ],
-        correct: [0, 2, 4] // Remove tools, Remove logs, Reverse changes
+        correct: [0, 4] // Remove tools, Reverse changes (NOT Remove logs)
     },
     {
         question: "14. Check the activities that differentiate Advanced Persistent Threats (APTs) from commodity threats and hacktivism",
@@ -164,7 +164,7 @@ const quizQuestions = [
             "Deleted objects",
             "Memory usage"
         ],
-        correct: [0, 1, 2, 3, 4, 5] // All are useful for security auditing
+        correct: [0, 1, 3, 4] // Prevention of policy checks, Security-related actions, Data import/export, Deleted objects (NOT Application errors, NOT Memory usage)
     },
     {
         question: "16. Check the tasks of a blue team in penetration testing",
